@@ -1,14 +1,14 @@
+import Counter from './Counter';
 
-import {Test} from './Test'
+import './style.css';
+import IMAGE from './react.png';
 
-import './style.css'
-import IMAGE from './react.png'
-
-
-export const App= ()=>{
-    return <>
+const App = () => (
+  <>
     <h1>Lorem ipsum dolor sit amet. starter</h1>
     <img src={IMAGE} alt="" />
-    <Test />
-    </>
-}
+    <Counter />
+  </>
+);
+
+export default App;
