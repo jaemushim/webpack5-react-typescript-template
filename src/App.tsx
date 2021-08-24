@@ -1,6 +1,6 @@
 import Counter from './Counter';
 
-import './style.css';
+import './styles/index.sass';
 import IMAGE from './react.png';
 
 const App = () => (
